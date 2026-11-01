@@ -1,0 +1,18 @@
+{
+  "id": "148-close-not-last",
+  "title": "session_end record in the middle",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CLOSE_NOT_LAST"
+    ],
+    "warnings_include": []
+  }
+}

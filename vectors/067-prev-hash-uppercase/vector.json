@@ -1,0 +1,18 @@
+{
+  "id": "067-prev-hash-uppercase",
+  "title": "prev_hash in uppercase hex",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PREV_HASH_FORMAT"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "168-anchored-head-mismatch",
+  "title": "Same length as the anchored head, different content",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3",
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_ANCHOR_MISMATCH"
+    ],
+    "warnings_include": []
+  }
+}

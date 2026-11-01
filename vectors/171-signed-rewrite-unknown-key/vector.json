@@ -1,0 +1,18 @@
+{
+  "id": "171-signed-rewrite-unknown-key",
+  "title": "Signed chain rewritten and re-signed with an unpublished key",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNER_KID_UNKNOWN"
+    ],
+    "warnings_include": []
+  }
+}

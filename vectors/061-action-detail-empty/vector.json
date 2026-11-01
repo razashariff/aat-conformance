@@ -1,0 +1,18 @@
+{
+  "id": "061-action-detail-empty",
+  "title": "action_detail is {}",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_ACTION_DETAIL_EMPTY"
+    ],
+    "warnings_include": []
+  }
+}

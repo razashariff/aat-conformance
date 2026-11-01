@@ -1,0 +1,17 @@
+{
+  "id": "002-valid-es256-self-signed",
+  "title": "Every record ES256-signed by the agent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

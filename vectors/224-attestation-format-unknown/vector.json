@@ -1,0 +1,18 @@
+{
+  "id": "224-attestation-format-unknown",
+  "title": "platform_attestation format 'tpm-quote'",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PLATFORM_ATTESTATION"
+    ],
+    "warnings_include": []
+  }
+}

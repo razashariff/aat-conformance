@@ -1,0 +1,17 @@
+{
+  "id": "010-valid-authority-ref",
+  "title": "authority_ref links to a delegation record",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1",
+    "7.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

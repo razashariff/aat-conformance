@@ -1,0 +1,18 @@
+{
+  "id": "104-tool-response-missing-parent-call-id",
+  "title": "tool_response without parent_call_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_PARENT_CALL_ID"
+    ],
+    "warnings_include": []
+  }
+}

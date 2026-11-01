@@ -1,0 +1,19 @@
+{
+  "id": "222-attestation-unbound",
+  "title": "Attestation bound_value does not match the chain head",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.4",
+    "14.6"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_ATTESTATION_UNBOUND"
+    ],
+    "warnings_include": []
+  }
+}

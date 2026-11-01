@@ -1,0 +1,18 @@
+{
+  "id": "193-signer-kid-unknown",
+  "title": "Signed by a key that is not published",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNER_KID_UNKNOWN"
+    ],
+    "warnings_include": []
+  }
+}

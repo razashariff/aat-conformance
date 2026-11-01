@@ -1,0 +1,18 @@
+{
+  "id": "025-jcs-integer-beyond-ijson",
+  "title": "Integer above 2^53 cannot be canonicalized (I-JSON)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_NOT_IJSON"
+    ],
+    "warnings_include": []
+  }
+}

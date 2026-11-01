@@ -1,0 +1,16 @@
+{
+  "id": "183-valid-hybrid",
+  "title": "ML-DSA-65 + ES256 hybrid, distinct keys",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

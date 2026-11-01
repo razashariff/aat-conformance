@@ -1,0 +1,18 @@
+{
+  "id": "108-delegation-missing-task-description-hash",
+  "title": "delegation without task_description_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_TASK_DESCRIPTION_HASH"
+    ],
+    "warnings_include": []
+  }
+}

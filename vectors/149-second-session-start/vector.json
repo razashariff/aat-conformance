@@ -1,0 +1,18 @@
+{
+  "id": "149-second-session-start",
+  "title": "session_start after genesis",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SESSION_START_NOT_GENESIS"
+    ],
+    "warnings_include": []
+  }
+}

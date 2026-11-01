@@ -1,0 +1,17 @@
+{
+  "id": "018-valid-prior-generation-tail",
+  "title": "Genesis continues a prior recording generation",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2",
+    "8.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

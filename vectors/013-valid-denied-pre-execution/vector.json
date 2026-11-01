@@ -1,0 +1,17 @@
+{
+  "id": "013-valid-denied-pre-execution",
+  "title": "Denied decision recorded pre-execution with reason codes",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "4.2",
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

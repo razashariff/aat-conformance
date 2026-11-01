@@ -1,0 +1,19 @@
+{
+  "id": "204-downgrade-flag-inconsistent",
+  "title": "downgraded=true while trust_level is L3 (not below the L2 default)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.3",
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DOWNGRADE_INCONSISTENT"
+    ],
+    "warnings_include": []
+  }
+}

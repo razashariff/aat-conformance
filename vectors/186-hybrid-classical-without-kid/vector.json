@@ -1,0 +1,18 @@
+{
+  "id": "186-hybrid-classical-without-kid",
+  "title": "signature_classical without signer_kid_classical",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNER_KID_CLASSICAL_MISSING"
+    ],
+    "warnings_include": []
+  }
+}

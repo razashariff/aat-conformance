@@ -1,0 +1,16 @@
+{
+  "id": "182-valid-ml-dsa-65",
+  "title": "Independent recorder signs with ML-DSA-65",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

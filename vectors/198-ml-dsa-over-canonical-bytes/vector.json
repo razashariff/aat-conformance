@@ -1,0 +1,18 @@
+{
+  "id": "198-ml-dsa-over-canonical-bytes",
+  "title": "ML-DSA-65 over the canonical bytes instead of their 32-byte hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  }
+}

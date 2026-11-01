@@ -1,0 +1,18 @@
+{
+  "id": "142-genesis-phase-post",
+  "title": "Genesis record_phase post_execution",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_GENESIS_PHASE"
+    ],
+    "warnings_include": []
+  }
+}

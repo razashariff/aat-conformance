@@ -1,0 +1,18 @@
+{
+  "id": "005-valid-noncanonical-storage",
+  "title": "Stored lines are not canonical (reordered keys, spacing, \\u escapes); hashes use JCS",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1",
+    "10.1",
+    "10.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "062-principal-type-unknown",
+  "title": "principal_type 'robot'",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PRINCIPAL_TYPE"
+    ],
+    "warnings_include": []
+  }
+}

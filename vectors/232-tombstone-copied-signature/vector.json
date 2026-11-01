@@ -1,0 +1,18 @@
+{
+  "id": "232-tombstone-copied-signature",
+  "title": "Tombstone keeps the deleted record's signature",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  }
+}

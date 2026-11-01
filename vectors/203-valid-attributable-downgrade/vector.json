@@ -1,0 +1,16 @@
+{
+  "id": "203-valid-attributable-downgrade",
+  "title": "Payment at L1 with an attributable downgrade",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "180-valid-independent-es256",
+  "title": "Independent recorder signs with its own ES256 key",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.2",
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

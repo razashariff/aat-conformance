@@ -1,0 +1,18 @@
+{
+  "id": "230-valid-tombstone-unsigned-chain",
+  "title": "GDPR tombstone in an unsigned chain",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_TOMBSTONE"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "146-close-without-session-hash",
+  "title": "Close record lacks session_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CLOSE_SESSION_HASH_MISSING"
+    ],
+    "warnings_include": []
+  }
+}

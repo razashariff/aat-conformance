@@ -1,0 +1,18 @@
+{
+  "id": "200-recorder-uses-agent-key",
+  "title": "Independent recorder signs with the agent's key",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RECORDER_KEY_NOT_INDEPENDENT"
+    ],
+    "warnings_include": []
+  }
+}

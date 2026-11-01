@@ -1,0 +1,19 @@
+{
+  "id": "225-informative-attestation-genesis-unbatched",
+  "title": "Attestation in an un-batched genesis: no preceding record to bind to",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.4"
+  ],
+  "normative": false,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_ATTESTATION_BINDING_UNDEFINED"
+    ]
+  },
+  "note": "3.2 recommends the genesis record, but bound_value is defined as the record_hash of the PRECEDING record. See SPEC-NOTES.md."
+}

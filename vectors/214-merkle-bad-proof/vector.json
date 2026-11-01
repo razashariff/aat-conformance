@@ -1,0 +1,16 @@
+{
+  "id": "214-merkle-bad-proof",
+  "title": "Inclusion proof sibling altered: chain valid, Merkle check fails",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "fail",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "029-bom-tolerated",
+  "title": "UTF-8 BOM (SHOULD NOT) is tolerated with a warning",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "10.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_BOM"
+    ]
+  }
+}

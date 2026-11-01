@@ -1,0 +1,19 @@
+{
+  "id": "150-branch-parent-mismatch",
+  "title": "Two records claim the same parent (branch)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.2",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PARENT_MISMATCH"
+    ],
+    "warnings_include": []
+  }
+}

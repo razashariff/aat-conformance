@@ -1,0 +1,18 @@
+{
+  "id": "189-es256-der-encoding",
+  "title": "ES256 signature DER-encoded instead of r||s",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  }
+}

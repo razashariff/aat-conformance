@@ -1,0 +1,18 @@
+{
+  "id": "101-tool-call-missing-parameters-hash",
+  "title": "tool_call without parameters_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_PARAMETERS_HASH"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "100-tool-call-missing-tool-name",
+  "title": "tool_call without tool_name",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_TOOL_NAME"
+    ],
+    "warnings_include": []
+  }
+}

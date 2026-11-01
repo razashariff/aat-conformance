@@ -1,0 +1,18 @@
+{
+  "id": "115-lifecycle-missing-event",
+  "title": "lifecycle without event",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7.7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_EVENT"
+    ],
+    "warnings_include": []
+  }
+}

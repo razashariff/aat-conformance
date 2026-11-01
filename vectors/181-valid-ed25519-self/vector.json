@@ -1,0 +1,16 @@
+{
+  "id": "181-valid-ed25519-self",
+  "title": "Agent signs with Ed25519",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

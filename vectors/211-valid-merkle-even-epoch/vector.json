@@ -1,0 +1,16 @@
+{
+  "id": "211-valid-merkle-even-epoch",
+  "title": "Six-leaf epoch",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "pass",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "236-tombstone-outcome-failure",
+  "title": "Tombstone outcome must be success",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TOMBSTONE_OUTCOME"
+    ],
+    "warnings_include": []
+  }
+}

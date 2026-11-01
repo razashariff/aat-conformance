@@ -1,0 +1,18 @@
+{
+  "id": "085-jurisdiction-lowercase",
+  "title": "jurisdiction 'gb'",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_JURISDICTION"
+    ],
+    "warnings_include": []
+  }
+}

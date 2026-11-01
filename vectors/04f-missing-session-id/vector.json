@@ -1,0 +1,18 @@
+{
+  "id": "04f-missing-session-id",
+  "title": "Mandatory field 'session_id' absent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_MISSING_SESSION_ID"
+    ],
+    "warnings_include": []
+  }
+}

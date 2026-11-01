@@ -1,0 +1,19 @@
+{
+  "id": "184-hybrid-classical-fails",
+  "title": "Hybrid: classical signature invalid (verifier MAY check it; record still verifies)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_HYBRID_CLASSICAL_FAILED"
+    ]
+  }
+}

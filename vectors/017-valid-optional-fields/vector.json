@@ -1,0 +1,16 @@
+{
+  "id": "017-valid-optional-fields",
+  "title": "All optional fields of 3.2, well-formed",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

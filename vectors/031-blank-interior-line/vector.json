@@ -1,0 +1,18 @@
+{
+  "id": "031-blank-interior-line",
+  "title": "Empty line inside the trail",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "10.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_JSONL"
+    ],
+    "warnings_include": []
+  }
+}

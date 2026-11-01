@@ -1,0 +1,16 @@
+{
+  "id": "023-jcs-non-ascii",
+  "title": "Non-ASCII stored as \\u escapes, canonical form is raw UTF-8",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

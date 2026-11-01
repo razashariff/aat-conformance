@@ -1,0 +1,18 @@
+{
+  "id": "04h-missing-action-detail",
+  "title": "Mandatory field 'action_detail' absent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_MISSING_ACTION_DETAIL"
+    ],
+    "warnings_include": []
+  }
+}

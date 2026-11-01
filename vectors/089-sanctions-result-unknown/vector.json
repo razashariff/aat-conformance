@@ -1,0 +1,18 @@
+{
+  "id": "089-sanctions-result-unknown",
+  "title": "sanctions_check result 'pass'",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SANCTIONS_CHECK"
+    ],
+    "warnings_include": []
+  }
+}

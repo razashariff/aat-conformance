@@ -1,0 +1,16 @@
+{
+  "id": "003-valid-no-close-inconclusive",
+  "title": "No close record: integrity passes, completeness is inconclusive",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "inconclusive",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

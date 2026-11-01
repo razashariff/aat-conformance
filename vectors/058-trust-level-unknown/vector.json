@@ -1,0 +1,18 @@
+{
+  "id": "058-trust-level-unknown",
+  "title": "trust_level L5",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TRUST_LEVEL"
+    ],
+    "warnings_include": []
+  }
+}

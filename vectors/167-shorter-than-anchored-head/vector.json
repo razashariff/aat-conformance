@@ -1,0 +1,19 @@
+{
+  "id": "167-shorter-than-anchored-head",
+  "title": "Presented chain shorter than the externally anchored head",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3",
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "gaps",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_SHORTER_THAN_ANCHOR"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "055-agent-version-not-semver",
+  "title": "agent_version is not SemVer",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_AGENT_VERSION"
+    ],
+    "warnings_include": []
+  }
+}

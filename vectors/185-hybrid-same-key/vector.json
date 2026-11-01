@@ -1,0 +1,18 @@
+{
+  "id": "185-hybrid-same-key",
+  "title": "Hybrid: both kids name the same key",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_HYBRID_SAME_KEY"
+    ],
+    "warnings_include": []
+  }
+}

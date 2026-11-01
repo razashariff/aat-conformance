@@ -1,0 +1,18 @@
+{
+  "id": "105-decision-missing-decision-type",
+  "title": "decision without decision_type",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_DECISION_TYPE"
+    ],
+    "warnings_include": []
+  }
+}

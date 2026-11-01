@@ -1,0 +1,18 @@
+{
+  "id": "054-agent-id-not-uri",
+  "title": "agent_id is not a URI",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_AGENT_ID"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "090-deny-reasons-not-strings",
+  "title": "deny_reasons contains a number",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DENY_REASONS"
+    ],
+    "warnings_include": []
+  }
+}

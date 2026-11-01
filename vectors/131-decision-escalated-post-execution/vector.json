@@ -1,0 +1,18 @@
+{
+  "id": "131-decision-escalated-post-execution",
+  "title": "decision escalated recorded as post_execution",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "4.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PHASE_PRE_EXECUTION_REQUIRED"
+    ],
+    "warnings_include": []
+  }
+}

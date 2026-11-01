@@ -1,0 +1,18 @@
+{
+  "id": "081-session-id-mismatch",
+  "title": "One record carries a different session_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SESSION_MISMATCH"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "088-trust-assignment-no-classifier",
+  "title": "trust_assignment missing classifier_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TRUST_ASSIGNMENT"
+    ],
+    "warnings_include": []
+  }
+}

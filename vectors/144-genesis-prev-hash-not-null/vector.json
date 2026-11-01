@@ -1,0 +1,19 @@
+{
+  "id": "144-genesis-prev-hash-not-null",
+  "title": "Genesis has a prev_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.1",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_GENESIS_PREV_HASH"
+    ],
+    "warnings_include": []
+  }
+}

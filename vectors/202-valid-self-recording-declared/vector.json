@@ -1,0 +1,16 @@
+{
+  "id": "202-valid-self-recording-declared",
+  "title": "recording_component equals agent_id (self-recording)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

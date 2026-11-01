@@ -1,0 +1,18 @@
+{
+  "id": "118-escalation-urgency-unknown",
+  "title": "escalation urgency unknown",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_URGENCY"
+    ],
+    "warnings_include": []
+  }
+}

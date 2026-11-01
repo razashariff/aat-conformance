@@ -1,0 +1,16 @@
+{
+  "id": "217-merkle-root-disagreement",
+  "title": "Records of one epoch carry different roots",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "fail",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

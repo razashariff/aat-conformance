@@ -1,0 +1,17 @@
+{
+  "id": "008-valid-equal-timestamps",
+  "title": "Equal timestamps are non-decreasing",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3",
+    "8.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "117-error-recoverable-not-boolean",
+  "title": "error recoverable not boolean",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RECOVERABLE"
+    ],
+    "warnings_include": []
+  }
+}

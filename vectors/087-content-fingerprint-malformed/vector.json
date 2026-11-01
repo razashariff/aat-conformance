@@ -1,0 +1,18 @@
+{
+  "id": "087-content-fingerprint-malformed",
+  "title": "content_fingerprint not 64 hex",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CONTENT_FINGERPRINT"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "166-tail-truncated",
+  "title": "Close record removed: chain intact, completeness inconclusive",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "inconclusive",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

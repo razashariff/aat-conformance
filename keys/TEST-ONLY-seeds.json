@@ -1,0 +1,41 @@
+{
+  "warning": "TEST KEYS ONLY. Derived from public seeds. Never use outside this corpus.",
+  "derivation": "seed = SHA-256('aat-conformance-test-key/' + name)",
+  "keys": {
+    "agent": {
+      "alg": "ES256",
+      "seed": "86e67cc91efbfd715d9bb4427f36ad0b45bf4c9c5002e09d94e37949138f348d",
+      "kid": "dFt4GK5qzIsu270bS05r7iEn9rFyVwSZEOFhhXBj6ek"
+    },
+    "agent2": {
+      "alg": "Ed25519",
+      "seed": "7b209ac4ea6336402178d425cde2be513dba53388a2997040bba69e7d2d6f7eb",
+      "kid": "zsF-vouv4BgS3EsNRm6oH_SYmFOAZACltE0_cV3qPT8"
+    },
+    "recorder": {
+      "alg": "ES256",
+      "seed": "a5ab3a02344193575443bce19e1ed374726486fb5875a18829954c1ed050767b",
+      "kid": "L2hpgrItYwPJASGyrAmHPW_J521u-vpIJk-2gY8pJSU"
+    },
+    "pq-recorder": {
+      "alg": "ML-DSA-65",
+      "seed": "004f58c29688bdd5238cb08118f79e9732d0f9f09cea3a7838a66d88ab30b4a8",
+      "kid": "4biZHZgexbuH59FQhSE7nJgFdz-hyAO1Jcz-yQlK--I"
+    },
+    "classical": {
+      "alg": "ES256",
+      "seed": "e21f5eb056c5fbfef4d3ddd7539a61a3526922d3392fd0aaf3d4a42f6fea7989",
+      "kid": "onGcECSvq3-y2d_uuI-5fsILWsji-C5sMfNTPmCXaTQ"
+    },
+    "deleter": {
+      "alg": "ES256",
+      "seed": "fcd66f5497aefca17247c8d9ab004bb94697a36b714e4e1fe9bdb6ee5f862a95",
+      "kid": "B6EWwc2sTmWOs1MdQM3McAwpJvyVn2XTrLF8fT4igBo"
+    },
+    "rogue": {
+      "alg": "ES256",
+      "seed": "442219450baf22763f451fefe7ff34e5b6b479a4de5b660a267ece809bcab3cf",
+      "kid": "ALzMRwJ1-Oc8KwMx2Rukrk-HVClprVxI19IXGHHhgiY"
+    }
+  }
+}

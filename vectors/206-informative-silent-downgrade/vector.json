@@ -1,0 +1,17 @@
+{
+  "id": "206-informative-silent-downgrade",
+  "title": "Payment at L1 with no trust_assignment",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.3"
+  ],
+  "normative": false,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  },
+  "note": "5.3 forbids this, but -09 gives no machine-readable marker of a 'consequential' action, so a generic verifier cannot detect it. See SPEC-NOTES.md."
+}

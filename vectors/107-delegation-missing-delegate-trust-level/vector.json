@@ -1,0 +1,18 @@
+{
+  "id": "107-delegation-missing-delegate-trust-level",
+  "title": "delegation without delegate_trust_level",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_DELEGATE_TRUST_LEVEL"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "066-session-id-not-uuid",
+  "title": "session_id is not a UUID",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SESSION_ID"
+    ],
+    "warnings_include": []
+  }
+}

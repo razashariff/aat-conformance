@@ -1,0 +1,18 @@
+{
+  "id": "04j-missing-trust-level",
+  "title": "Mandatory field 'trust_level' absent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_MISSING_TRUST_LEVEL"
+    ],
+    "warnings_include": []
+  }
+}

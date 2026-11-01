@@ -1,0 +1,18 @@
+{
+  "id": "078-prior-generation-tail-not-genesis",
+  "title": "prior_generation_tail outside the genesis record",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PRIOR_GENERATION_TAIL_NOT_GENESIS"
+    ],
+    "warnings_include": []
+  }
+}

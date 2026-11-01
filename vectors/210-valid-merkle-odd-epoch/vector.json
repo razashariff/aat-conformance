@@ -1,0 +1,16 @@
+{
+  "id": "210-valid-merkle-odd-epoch",
+  "title": "Five-leaf epoch (odd node promotion) with inclusion proofs",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "pass",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

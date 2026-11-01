@@ -1,0 +1,19 @@
+{
+  "id": "235-tombstone-hash-wrong",
+  "title": "tombstone_hash does not match the next record's prev_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN"
+    ],
+    "warnings_include": []
+  }
+}

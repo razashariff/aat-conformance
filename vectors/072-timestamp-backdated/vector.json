@@ -1,0 +1,19 @@
+{
+  "id": "072-timestamp-backdated",
+  "title": "Record N+1 earlier than record N",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3",
+    "8.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TIMESTAMP_BACKDATED"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "237-tombstone-by-agent-key",
+  "title": "Agent tombstones its own record (SHOULD NOT)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_TOMBSTONE",
+      "W_TOMBSTONE_BY_AGENT_KEY"
+    ]
+  }
+}

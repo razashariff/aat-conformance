@@ -1,0 +1,18 @@
+{
+  "id": "233-tombstone-unsigned-in-signed-chain",
+  "title": "Unsigned tombstone inside a signed chain",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TOMBSTONE_UNSIGNED"
+    ],
+    "warnings_include": []
+  }
+}

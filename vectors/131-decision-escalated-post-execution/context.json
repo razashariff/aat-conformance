@@ -1,0 +1,8 @@
+{
+  "keyset": "../../keys/public.json",
+  "agent_kids": {
+    "urn:agent:payment-bot.example": "dFt4GK5qzIsu270bS05r7iEn9rFyVwSZEOFhhXBj6ek",
+    "urn:agent:research-bot.example": "zsF-vouv4BgS3EsNRm6oH_SYmFOAZACltE0_cV3qPT8"
+  },
+  "options": {}
+}

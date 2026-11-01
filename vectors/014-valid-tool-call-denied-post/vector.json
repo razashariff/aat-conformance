@@ -1,0 +1,16 @@
+{
+  "id": "014-valid-tool-call-denied-post",
+  "title": "tool_call denied may be post_execution (4.2 restricts only decision/delegation)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "4.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

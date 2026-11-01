@@ -1,0 +1,16 @@
+{
+  "id": "006-valid-utc-offset-timestamps",
+  "title": "RFC 3339 timestamps with a +01:00 offset",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

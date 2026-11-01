@@ -1,0 +1,17 @@
+{
+  "id": "009-valid-sequence-numbers",
+  "title": "sequence_number 0..n, gap-free",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2",
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

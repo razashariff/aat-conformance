@@ -1,0 +1,18 @@
+{
+  "id": "121-decision-confidence-out-of-range",
+  "title": "decision confidence out of range",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CONFIDENCE"
+    ],
+    "warnings_include": []
+  }
+}

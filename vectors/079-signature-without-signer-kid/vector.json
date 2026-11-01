@@ -1,0 +1,19 @@
+{
+  "id": "079-signature-without-signer-kid",
+  "title": "signature present, signer_kid absent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2",
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNER_KID_MISSING"
+    ],
+    "warnings_include": []
+  }
+}

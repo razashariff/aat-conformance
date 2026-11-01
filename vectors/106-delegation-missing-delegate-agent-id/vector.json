@@ -1,0 +1,18 @@
+{
+  "id": "106-delegation-missing-delegate-agent-id",
+  "title": "delegation without delegate_agent_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_DELEGATE_AGENT_ID"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "075-sequence-starts-at-1",
+  "title": "Genesis sequence_number must be 0",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SEQUENCE_GAP"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "026-duplicate-json-key",
+  "title": "Duplicate member names are not I-JSON",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1",
+    "10.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DUPLICATE_KEY"
+    ],
+    "warnings_include": []
+  }
+}

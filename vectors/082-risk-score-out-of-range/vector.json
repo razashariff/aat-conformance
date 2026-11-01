@@ -1,0 +1,18 @@
+{
+  "id": "082-risk-score-out-of-range",
+  "title": "risk_score 1.5",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RISK_SCORE"
+    ],
+    "warnings_include": []
+  }
+}

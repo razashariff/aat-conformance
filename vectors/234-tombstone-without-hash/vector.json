@@ -1,0 +1,18 @@
+{
+  "id": "234-tombstone-without-hash",
+  "title": "Tombstone lacks tombstone_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TOMBSTONE_HASH"
+    ],
+    "warnings_include": []
+  }
+}

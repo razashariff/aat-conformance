@@ -1,0 +1,16 @@
+{
+  "id": "022-jcs-string-escaping",
+  "title": "Control characters, quotes, backslash, DEL, U+2028",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

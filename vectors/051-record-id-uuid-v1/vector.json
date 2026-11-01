@@ -1,0 +1,18 @@
+{
+  "id": "051-record-id-uuid-v1",
+  "title": "record_id is a UUID but version 1",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RECORD_ID"
+    ],
+    "warnings_include": []
+  }
+}

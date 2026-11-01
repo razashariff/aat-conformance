@@ -1,0 +1,18 @@
+{
+  "id": "063-principal-id-not-uri",
+  "title": "principal_id is not a URI",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PRINCIPAL_ID"
+    ],
+    "warnings_include": []
+  }
+}

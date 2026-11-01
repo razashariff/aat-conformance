@@ -1,0 +1,16 @@
+{
+  "id": "024-jcs-max-safe-integer",
+  "title": "2^53-1 is exact",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

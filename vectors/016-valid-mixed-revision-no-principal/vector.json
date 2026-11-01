@@ -1,0 +1,18 @@
+{
+  "id": "016-valid-mixed-revision-no-principal",
+  "title": "Archive predating -07: absent principal is 'not recorded'",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_PRINCIPAL_NOT_RECORDED"
+    ]
+  }
+}

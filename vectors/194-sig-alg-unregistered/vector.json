@@ -1,0 +1,19 @@
+{
+  "id": "194-sig-alg-unregistered",
+  "title": "sig_alg RS256",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2",
+    "15.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIG_ALG"
+    ],
+    "warnings_include": []
+  }
+}

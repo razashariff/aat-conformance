@@ -1,0 +1,17 @@
+{
+  "id": "216-merkle-leaf-index-swapped",
+  "title": "batch.leaf_index values swapped after the fact",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "fail",
+    "errors_include": [],
+    "warnings_include": []
+  },
+  "note": "Batch is detached (6.4): the chain and signatures still verify; only Merkle inclusion fails."
+}

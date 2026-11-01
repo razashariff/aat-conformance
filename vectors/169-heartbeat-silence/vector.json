@@ -1,0 +1,19 @@
+{
+  "id": "169-heartbeat-silence",
+  "title": "Ten minutes of silence against a 30 s heartbeat",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.4",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "gaps",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_HEARTBEAT_GAP"
+    ]
+  }
+}

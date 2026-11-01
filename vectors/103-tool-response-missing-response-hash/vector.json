@@ -1,0 +1,18 @@
+{
+  "id": "103-tool-response-missing-response-hash",
+  "title": "tool_response without response_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_RESPONSE_HASH"
+    ],
+    "warnings_include": []
+  }
+}

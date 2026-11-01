@@ -1,0 +1,19 @@
+{
+  "id": "027-lone-surrogate",
+  "title": "A lone surrogate is not a Unicode string",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3",
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_NOT_IJSON"
+    ],
+    "warnings_include": []
+  }
+}

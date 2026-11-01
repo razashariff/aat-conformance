@@ -1,0 +1,19 @@
+{
+  "id": "076-sequence-gap",
+  "title": "sequence_number skips a value",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SEQUENCE_GAP"
+    ],
+    "warnings_include": []
+  }
+}

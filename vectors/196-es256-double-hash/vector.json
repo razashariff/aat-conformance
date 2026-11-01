@@ -1,0 +1,19 @@
+{
+  "id": "196-es256-double-hash",
+  "title": "ES256 over SHA-256(SHA-256(JCS)) instead of SHA-256(JCS)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  },
+  "note": "6.2 step 4a: the 32-byte hash is the ECDSA digest. This equals standard ES256 over the canonical bytes."
+}

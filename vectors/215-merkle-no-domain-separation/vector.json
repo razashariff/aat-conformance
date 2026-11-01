@@ -1,0 +1,16 @@
+{
+  "id": "215-merkle-no-domain-separation",
+  "title": "Root built without the 0x00/0x01 prefixes of RFC 6962",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "fail",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "201-recorder-undeclared",
+  "title": "Signed by a non-agent key with no recording_component",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.2",
+    "5.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RECORDING_COMPONENT_UNDECLARED"
+    ],
+    "warnings_include": []
+  }
+}

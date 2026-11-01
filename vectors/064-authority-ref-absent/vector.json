@@ -1,0 +1,18 @@
+{
+  "id": "064-authority-ref-absent",
+  "title": "authority_ref key missing (must be present, null allowed)",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_AUTHORITY_REF"
+    ],
+    "warnings_include": []
+  }
+}

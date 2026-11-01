@@ -1,0 +1,19 @@
+{
+  "id": "001-valid-minimal-unsigned",
+  "title": "Complete unsigned session",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1",
+    "6.3",
+    "8.1",
+    "8.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

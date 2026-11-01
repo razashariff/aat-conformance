@@ -1,0 +1,18 @@
+{
+  "id": "164-chain-without-jcs",
+  "title": "prev_hash over json.dumps(sort_keys) instead of JCS",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "030-truncated-json-line",
+  "title": "A line that is not valid JSON",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "10.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_JSONL"
+    ],
+    "warnings_include": []
+  }
+}

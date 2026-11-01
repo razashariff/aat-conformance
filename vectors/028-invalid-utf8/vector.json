@@ -1,0 +1,19 @@
+{
+  "id": "028-invalid-utf8",
+  "title": "Invalid UTF-8 bytes",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3",
+    "10.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_UTF8"
+    ],
+    "warnings_include": []
+  }
+}

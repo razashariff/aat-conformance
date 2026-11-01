@@ -1,0 +1,17 @@
+{
+  "id": "221-valid-attestation-bound-to-preceding",
+  "title": "Attestation in a later record, bound to the preceding record_hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "5.4",
+    "3.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

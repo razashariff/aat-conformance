@@ -1,0 +1,927 @@
+{
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "count": 184,
+  "normative": 182,
+  "vectors": [
+    {
+      "id": "001-valid-minimal-unsigned",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "002-valid-es256-self-signed",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "003-valid-no-close-inconclusive",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "004-valid-heartbeats",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "005-valid-noncanonical-storage",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "006-valid-utc-offset-timestamps",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "007-valid-microsecond-timestamps",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "008-valid-equal-timestamps",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "009-valid-sequence-numbers",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "010-valid-authority-ref",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "011-valid-unknown-detail-fields",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "012-valid-all-action-types",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "013-valid-denied-pre-execution",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "014-valid-tool-call-denied-post",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "015-valid-nonces",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "016-valid-mixed-revision-no-principal",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "017-valid-optional-fields",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "018-valid-prior-generation-tail",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "020-jcs-number-serialization",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "021-jcs-utf16-key-order",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "022-jcs-string-escaping",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "023-jcs-non-ascii",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "024-jcs-max-safe-integer",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "025-jcs-integer-beyond-ijson",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "026-duplicate-json-key",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "027-lone-surrogate",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "028-invalid-utf8",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "029-bom-tolerated",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "030-truncated-json-line",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "031-blank-interior-line",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "032-line-not-object",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04a-missing-record-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04b-missing-timestamp",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04c-missing-agent-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04d-missing-principal",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04e-missing-agent-version",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04f-missing-session-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04g-missing-action-type",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04h-missing-action-detail",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04i-missing-outcome",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04j-missing-trust-level",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04k-missing-parent-record-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04l-missing-prev-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "04m-missing-record-phase",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "050-record-id-not-uuid",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "051-record-id-uuid-v1",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "052-timestamp-no-offset",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "053-timestamp-impossible-date",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "054-agent-id-not-uri",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "055-agent-version-not-semver",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "056-action-type-unregistered",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "057-outcome-unregistered",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "058-trust-level-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "059-record-phase-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "060-action-detail-array",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "061-action-detail-empty",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "062-principal-type-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "063-principal-id-not-uri",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "064-authority-ref-absent",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "065-principal-not-object",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "066-session-id-not-uuid",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "067-prev-hash-uppercase",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "068-prev-hash-63-chars",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "070-record-over-256kb",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "071-record-over-64kb",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "072-timestamp-backdated",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "073-timestamp-backdated-via-offset",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "074-reserved-aat-prefix",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "075-sequence-starts-at-1",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "076-sequence-gap",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "077-sequence-partial",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "078-prior-generation-tail-not-genesis",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "079-signature-without-signer-kid",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "080-duplicate-record-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "081-session-id-mismatch",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "082-risk-score-out-of-range",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "083-input-hash-uppercase",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "084-nonce-too-short",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "085-jurisdiction-lowercase",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "086-external-timestamp-incomplete",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "087-content-fingerprint-malformed",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "088-trust-assignment-no-classifier",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "089-sanctions-result-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "090-deny-reasons-not-strings",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "091-nonce-reused",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "100-tool-call-missing-tool-name",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "101-tool-call-missing-parameters-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "102-tool-response-missing-tool-name",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "103-tool-response-missing-response-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "104-tool-response-missing-parent-call-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "105-decision-missing-decision-type",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "106-delegation-missing-delegate-agent-id",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "107-delegation-missing-delegate-trust-level",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "108-delegation-missing-task-description-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "109-escalation-missing-escalation-reason",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "110-escalation-missing-escalation-target",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "111-error-missing-error-code",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "112-error-missing-error-message",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "113-error-missing-error-category",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "114-error-missing-recoverable",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "115-lifecycle-missing-event",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "116-error-category-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "117-error-recoverable-not-boolean",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "118-escalation-urgency-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "119-delegation-trust-level-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "120-lifecycle-event-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "121-decision-confidence-out-of-range",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "122-tool-response-orphan",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "130-decision-denied-post-execution",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "131-decision-escalated-post-execution",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "132-decision-denied-concurrent",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "133-delegation-denied-post-execution",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "140-genesis-not-lifecycle",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "141-genesis-event-resume",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "142-genesis-phase-post",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "143-genesis-parent-not-null",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "144-genesis-prev-hash-not-null",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "145-close-phase-concurrent",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "146-close-without-session-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "147-session-hash-over-hex-text",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "148-close-not-last",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "149-second-session-start",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "150-branch-parent-mismatch",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "151-parent-null-after-genesis",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "160-tamper-field-edit",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "161-tamper-delete-interior",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "162-tamper-reorder",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "163-tamper-insert",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "164-chain-without-jcs",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "165-chain-excludes-prev-signature",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "166-tail-truncated",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "167-shorter-than-anchored-head",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "168-anchored-head-mismatch",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "169-heartbeat-silence",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "170-unsigned-rewrite-undetectable",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "171-signed-rewrite-unknown-key",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "172-signed-rewrite-stale-signatures",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "180-valid-independent-es256",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "181-valid-ed25519-self",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "182-valid-ml-dsa-65",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "183-valid-hybrid",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "184-hybrid-classical-fails",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "185-hybrid-same-key",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "186-hybrid-classical-without-kid",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "187-valid-sig-alg-absent",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "188-es256-bad-signature",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "189-es256-der-encoding",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "190-signature-covers-batch",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "191-sig-alg-altered",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "192-signer-kid-wrong-key",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "193-signer-kid-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "194-sig-alg-unregistered",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "195-sig-alg-key-type-mismatch",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "196-es256-double-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "197-ed25519-over-canonical-bytes",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "198-ml-dsa-over-canonical-bytes",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "200-recorder-uses-agent-key",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "201-recorder-undeclared",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "202-valid-self-recording-declared",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "203-valid-attributable-downgrade",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "204-downgrade-flag-inconsistent",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "205-downgrade-missing-policy-version",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "206-informative-silent-downgrade",
+      "verdict": "accept",
+      "normative": false
+    },
+    {
+      "id": "210-valid-merkle-odd-epoch",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "211-valid-merkle-even-epoch",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "212-valid-merkle-two-epochs",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "213-valid-merkle-single-leaf-epochs",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "214-merkle-bad-proof",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "215-merkle-no-domain-separation",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "216-merkle-leaf-index-swapped",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "217-merkle-root-disagreement",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "221-valid-attestation-bound-to-preceding",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "222-attestation-unbound",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "223-hardware-attested-without-attestation",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "224-attestation-format-unknown",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "225-informative-attestation-genesis-unbatched",
+      "verdict": "accept",
+      "normative": false
+    },
+    {
+      "id": "230-valid-tombstone-unsigned-chain",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "231-valid-tombstone-signed-by-deleting-authority",
+      "verdict": "accept",
+      "normative": true
+    },
+    {
+      "id": "232-tombstone-copied-signature",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "233-tombstone-unsigned-in-signed-chain",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "234-tombstone-without-hash",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "235-tombstone-hash-wrong",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "236-tombstone-outcome-failure",
+      "verdict": "reject",
+      "normative": true
+    },
+    {
+      "id": "237-tombstone-by-agent-key",
+      "verdict": "accept",
+      "normative": true
+    }
+  ]
+}

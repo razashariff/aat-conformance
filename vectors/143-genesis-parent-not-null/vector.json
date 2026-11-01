@@ -1,0 +1,19 @@
+{
+  "id": "143-genesis-parent-not-null",
+  "title": "Genesis has a parent_record_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.1",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_GENESIS_PARENT"
+    ],
+    "warnings_include": []
+  }
+}

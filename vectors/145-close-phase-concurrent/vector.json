@@ -1,0 +1,18 @@
+{
+  "id": "145-close-phase-concurrent",
+  "title": "Close record not post_execution",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CLOSE_PHASE"
+    ],
+    "warnings_include": []
+  }
+}

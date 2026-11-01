@@ -1,0 +1,18 @@
+{
+  "id": "071-record-over-64kb",
+  "title": "Record over 64 KB (SHOULD NOT) is accepted with a warning",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_SIZE"
+    ]
+  }
+}

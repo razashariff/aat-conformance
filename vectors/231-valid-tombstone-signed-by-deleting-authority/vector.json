@@ -1,0 +1,18 @@
+{
+  "id": "231-valid-tombstone-signed-by-deleting-authority",
+  "title": "Signed chain, tombstone re-signed by the deleting authority",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "9.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": [
+      "W_TOMBSTONE"
+    ]
+  }
+}

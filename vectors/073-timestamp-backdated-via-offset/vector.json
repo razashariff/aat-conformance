@@ -1,0 +1,18 @@
+{
+  "id": "073-timestamp-backdated-via-offset",
+  "title": "Later as text, earlier in UTC",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_TIMESTAMP_BACKDATED"
+    ],
+    "warnings_include": []
+  }
+}

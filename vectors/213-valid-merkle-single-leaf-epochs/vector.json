@@ -1,0 +1,16 @@
+{
+  "id": "213-valid-merkle-single-leaf-epochs",
+  "title": "Epochs of one leaf: root equals the leaf hash",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.4"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "pass",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

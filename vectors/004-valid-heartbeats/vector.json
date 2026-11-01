@@ -1,0 +1,17 @@
+{
+  "id": "004-valid-heartbeats",
+  "title": "Declared heartbeat cadence, honoured",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.4",
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

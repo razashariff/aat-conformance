@@ -1,0 +1,18 @@
+{
+  "id": "170-unsigned-rewrite-undetectable",
+  "title": "Unsigned chain recomputed after an edit: integrity checks cannot see it",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3",
+    "14.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  },
+  "note": "Expected accept. Demonstrates why signatures (6.2) or an external anchor (6.4) are needed."
+}

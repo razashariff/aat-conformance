@@ -1,0 +1,18 @@
+{
+  "id": "188-es256-bad-signature",
+  "title": "ES256 signature altered",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  }
+}

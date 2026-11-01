@@ -1,0 +1,18 @@
+{
+  "id": "074-reserved-aat-prefix",
+  "title": "action_detail field with the reserved aat_ prefix",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_RESERVED_PREFIX"
+    ],
+    "warnings_include": []
+  }
+}

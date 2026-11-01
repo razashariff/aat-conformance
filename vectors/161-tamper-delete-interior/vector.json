@@ -1,0 +1,20 @@
+{
+  "id": "161-tamper-delete-interior",
+  "title": "Interior record removed",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3",
+    "8.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN",
+      "E_PARENT_MISMATCH"
+    ],
+    "warnings_include": []
+  }
+}

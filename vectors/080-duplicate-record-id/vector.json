@@ -1,0 +1,18 @@
+{
+  "id": "080-duplicate-record-id",
+  "title": "Two records share a record_id",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DUPLICATE_RECORD_ID"
+    ],
+    "warnings_include": []
+  }
+}

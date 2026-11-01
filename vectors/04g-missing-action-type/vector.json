@@ -1,0 +1,18 @@
+{
+  "id": "04g-missing-action-type",
+  "title": "Mandatory field 'action_type' absent",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_MISSING_ACTION_TYPE"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "070-record-over-256kb",
+  "title": "Record larger than 256 KB MUST be rejected",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIZE"
+    ],
+    "warnings_include": []
+  }
+}

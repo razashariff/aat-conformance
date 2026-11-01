@@ -1,0 +1,18 @@
+{
+  "id": "163-tamper-insert",
+  "title": "Forged record inserted with a correct back-link",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN"
+    ],
+    "warnings_include": []
+  }
+}

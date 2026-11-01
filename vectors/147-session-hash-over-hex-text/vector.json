@@ -1,0 +1,18 @@
+{
+  "id": "147-session-hash-over-hex-text",
+  "title": "session_hash computed over hex text instead of raw digests",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "8.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SESSION_HASH"
+    ],
+    "warnings_include": []
+  }
+}

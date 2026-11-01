@@ -1,0 +1,19 @@
+{
+  "id": "165-chain-excludes-prev-signature",
+  "title": "prev_hash computed without the previous record's signature",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2",
+    "6.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN"
+    ],
+    "warnings_include": []
+  }
+}

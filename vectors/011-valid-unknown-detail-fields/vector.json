@@ -1,0 +1,16 @@
+{
+  "id": "011-valid-unknown-detail-fields",
+  "title": "Unknown action_detail fields are carried and hashed",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "3.1"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "accept",
+    "completeness": "complete",
+    "merkle": "absent",
+    "errors_include": [],
+    "warnings_include": []
+  }
+}

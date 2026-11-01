@@ -1,0 +1,18 @@
+{
+  "id": "160-tamper-field-edit",
+  "title": "One field edited after chaining",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.3"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_CHAIN_BROKEN"
+    ],
+    "warnings_include": []
+  }
+}

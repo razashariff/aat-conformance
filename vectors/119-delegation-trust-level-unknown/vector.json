@@ -1,0 +1,18 @@
+{
+  "id": "119-delegation-trust-level-unknown",
+  "title": "delegation trust level unknown",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DELEGATE_TRUST_LEVEL"
+    ],
+    "warnings_include": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "111-error-missing-error-code",
+  "title": "error without error_code",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_DETAIL_MISSING_ERROR_CODE"
+    ],
+    "warnings_include": []
+  }
+}

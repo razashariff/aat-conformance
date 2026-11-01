@@ -1,0 +1,18 @@
+{
+  "id": "122-tool-response-orphan",
+  "title": "tool_response.parent_call_id names no tool_call in the session",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "7.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_PARENT_CALL_UNKNOWN"
+    ],
+    "warnings_include": []
+  }
+}

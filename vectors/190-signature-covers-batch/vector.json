@@ -1,0 +1,18 @@
+{
+  "id": "190-signature-covers-batch",
+  "title": "Signature computed over a 'batch' object, which is excluded from the signed message",
+  "spec": "draft-sharif-agent-audit-trail-09",
+  "sections": [
+    "6.2"
+  ],
+  "normative": true,
+  "expected": {
+    "verdict": "reject",
+    "completeness": "n/a",
+    "merkle": "absent",
+    "errors_include": [
+      "E_SIGNATURE_INVALID"
+    ],
+    "warnings_include": []
+  }
+}
